@@ -1,0 +1,53 @@
+/* #region Hero */
+
+header{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+    min-height: 10vh;
+    position: sticky;
+}
+#home-nav{
+    background-image: url(images/heber.jpg);
+    background-attachment: fixed;
+    padding: 0;
+    transition-duration: 1s;
+}
+#home-nav ul{
+    display: flex;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 0;
+}
+#home-nav ul li{
+    font-size: 1.3vw;
+    text-align: center;
+    width: 25%;
+}
+#home-nav ul li a{
+    text-decoration: none;
+    color: rgb(92, 0, 43);
+    transition-duration: .2s;
+    margin: 8px;
+}
+#home-nav ul li a:hover{
+    color: rgb(255, 248, 248);
+    font-size: 3vw;
+    transition-duration: .5s;
+    text-shadow: 0 0 10px black;
+}
+
+/* #endregion */
+/* #region content*/
+
+body{
+    margin: 0;
+    margin-top: 0;
+    height: 200vh;
+}
+
+/* #endregion */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heber Valley</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Activities" href="function.js">
+</head>
+<body>
+    
+<header id="home-nav">
+    <nav>
+        <ul id="nav-list">
+            <li>
+                <h1>
+                    <a href="">
+                        Home
+                    </a>
+                </h1>
+            </li>
+            <li>
+                <h1>
+                    <a href="">
+                        Gallery
+                    </a>
+                </h1>
+            </li>
+            <li>
+                <h1>
+                    <a href="">
+                        Food
+                    </a>
+                </h1>
+            </li>
+            <li>
+                <h1>
+                    <a href="">
+                        Activities
+                    </a>
+                </h1>
+            </li>
+        </ul>
+    </nav>
+</header>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 130 || document.documentElement.scrollTop > 130) {
+    document.getElementById("home-nav").style.padding = "0px";
+    document.getElementById("home-nav").style.paddingTop = "8px";
+    document.getElementById("home-nav").style.paddingBottom = "8px";
+  } else {
+    document.getElementById("home-nav").style.paddingTop = "30vh";
+    document.getElementById("home-nav").style.paddingBottom = "30vh";
+  }
+}
+</script>
+<main>
+    <h1>
+        Welcome to the Heber Valley
+    </h1>
+</main>
+</body>
+</html>
